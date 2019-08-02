@@ -13,6 +13,7 @@ body {
   text-align: left;
   /*this propertie take value of he's father*/
   display: inherit;
+  /*I suggest this two options*/
   /*background-color: #aecc5c;*/
   background-image: url('https://educacion2.com/wp-content/uploads/2017/09/colores-en-el-aprendizaje-11.jpg');
   background-repeat: no-repeat;
@@ -44,6 +45,7 @@ body {
 
 .input-box__input--size {
     height: 7vh;
+    width: 99%;
     padding-left: 1vh;
 }
 
