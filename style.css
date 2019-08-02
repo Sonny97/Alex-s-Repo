@@ -1,0 +1,62 @@
+/*========== This properties clean everithing around the elements ==================*/
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+/*============ This properties is just to work the text ====================*/
+body {
+  /*this two properties it's ain't necesary*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  /*this propertie take value of he's father*/
+  display: inherit;
+  /*background-color: #aecc5c;*/
+  background-image: url('https://educacion2.com/wp-content/uploads/2017/09/colores-en-el-aprendizaje-11.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*========== Here start the properties about input CC ======================*/
+.container-nit {
+  width: 50%;
+  margin: auto;
+  margin-top: 5vh;
+  align-content: center;
+}
+
+.container-text {
+  margin: 10% 10% 7% 0;
+}
+
+.container-text label {
+  white-space: nowrap;
+}
+
+.input-box {
+  display: flex;
+  border-radius: 3%;
+  flex-direction: row;
+  height: 5%;
+  background-color: #ffffff;
+}
+
+.input-box__input--size {
+    height: 7vh;
+    padding-left: 1vh;
+}
+
+.input-box__button {
+  width: 64px;
+  text-align: center;
+  /*If you going to use a image like a 'lupa' I suggest use the next propertie*/
+  /*align-content: center;*/
+  display: inherit;
+  border-left: 1px solid black;
+  margin: 3px 2px 3px;
+}
+
+.input-box__button button {
+  background-color: #ffffff;
+}
