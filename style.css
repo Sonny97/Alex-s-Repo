@@ -62,3 +62,11 @@ body {
 .input-box__button button {
   background-color: #ffffff;
 }
+
+.container-students {
+  display: none;
+  margin: auto;
+  width: 45%;
+  margin-top: 4%;
+  white-space: nowrap;
+}
