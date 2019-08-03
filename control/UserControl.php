@@ -1,5 +1,5 @@
 <?php
-header("Content-type: text/javascript");
+header('Content-Type: application/json');
 include_once("../Connection/Connection.php");
 $id=123456789;
 $params=array($id);
