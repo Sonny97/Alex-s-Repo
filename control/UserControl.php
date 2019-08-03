@@ -1,14 +1,13 @@
 <?php
-header('Content-Type: application/json');
 include_once("../Connection/Connection.php");
-$id=123456789;
+$id=$_POST['postcedula'];
 $params=array($id);
 $sql = "EXEC SP_CONSULTAR_ALUMNO @sp_cedula=?";
 $stmt = sqlsrv_query($conn, $sql,$params); 
 
 $row = sqlsrv_fetch_array($stmt);
  
-echo json_encode($row);
-
+$json = json_encode($row);
+echo $json;
 
 ?>

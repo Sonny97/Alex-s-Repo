@@ -17,7 +17,7 @@
           <input id="userId" class="input-box__input--size" type="text" placeholder="Digite su cedula" />
         </div>
         <div class="input-box__button">
-          <button id="userId" type="text">Consultar</button>
+          <button id="id-btn" type="text">Consultar</button>
         </div>
       </div>
     </div>
